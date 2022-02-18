@@ -12,6 +12,7 @@ public class HashMapExam2 {
 		map.put("동장군", 80);
 		map.put("홍길동", 95); // 키값 중복
 		System.out.println("총 객체수:" + map.size());
+		
 		Set<String> keySet = map.keySet();
 		
 		Iterator<String> it = keySet.iterator();
